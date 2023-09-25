@@ -1,7 +1,7 @@
 @echo off
 
 REM PLEASE UPDATE THE FOLLOWING VARIABLES FOR YOUR NEEDS.
-set v_domain_name=odoo.aseansc.com.vn
+set v_domain_name=odoo.abc.com
 set openssl_exe=D:\Zend\Apache24\bin\openssl.exe
 
 echo 0. Create Config
@@ -17,7 +17,7 @@ echo ST = HA NOI
 echo O = ASEANSC
 echo OU = IT Dept
 echo CN = %v_domain_name%
-echo emailAddress = lien.nd@aseansc.com.vn
+echo emailAddress = lien@abc.com
 echo [extend] # openssl extensions
 echo subjectKeyIdentifier = hash
 echo authorityKeyIdentifier = keyid:always
